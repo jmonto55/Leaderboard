@@ -59,16 +59,12 @@ main {
   font-size: 1.2rem;
   cursor: pointer;
   font-weight: 500;
+  transition: all ease 0.3s;
 }
 
-/* .refresh_button {
-  padding: 5px 10px;
-  background-color: #fff;
-  box-shadow: #28282b 3px 3px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  font-weight: 500;
-} */
+.btn:hover {
+  background-color: rgb(206, 206, 206);
+}
 
 .scores_list {
   margin-top: 30px;
