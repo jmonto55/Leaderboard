@@ -17,6 +17,8 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: grey;
+  height: 100vh;
+  justify-content: center;
 }
 
 header {
@@ -47,16 +49,26 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
-.refresh_button {
+.btn {
   padding: 5px 10px;
   background-color: #fff;
   box-shadow: #28282b 3px 3px;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   cursor: pointer;
+  font-weight: 500;
 }
+
+/* .refresh_button {
+  padding: 5px 10px;
+  background-color: #fff;
+  box-shadow: #28282b 3px 3px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+} */
 
 .scores_list {
   margin-top: 30px;
@@ -78,8 +90,9 @@ main {
   width: 50%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 0 2%;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 form {
@@ -98,13 +111,14 @@ input {
   margin-bottom: 20px;
 }
 
+input::-webkit-input-placeholder {
+  color: #28282b;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .submit_button {
   width: 100px;
-  padding: 5px 10px;
-  background-color: #fff;
-  box-shadow: #28282b 3px 3px;
-  font-size: 1.25rem;
-  cursor: pointer;
   position: absolute;
   bottom: 0;
   right: 0;
