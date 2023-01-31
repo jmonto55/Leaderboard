@@ -35,7 +35,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is a web where the user can display scores in a Leadrboard
+**Leaderboard** is a web where the user can display scores in a list and see who is winning.
 
 ## 🛠 Built With <a name="built-with"></a>
 
