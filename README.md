@@ -3,7 +3,7 @@
 <div align="center">
   <!-- <img src="./readme_img.png" alt="example image" width="100%" /> -->
 
-  <h3><b>To Do List</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-**To Do List** is a web where the user can add, remove and display all the tasks for the day.
+**Leaderboard** is a web where the user can display scores in a list and see who is winning.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,9 +72,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **To Do List let the user see and update a list of today's tasks**
-- **To Do List allows the user to add or remove any task from the list**
-- **To Do List allows the user to reorder tasks**
+- **Leaderboard allow user to save their scores**
+- **Leaderboard allow users to check all scores an see who is winning**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +81,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://jmonto55.github.io/ToDoList/dist/)
+- [Not Available](https://jmonto55.github.io/ToDoList/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,22 +101,21 @@ In order to run this project you need:
 
 To get a local copy up and running follow these simple example steps.
 
-- Copy this link https://github.com/jmonto55/To-Do-List
-- Get the directory that you want to clone the repository.
-- Open the command prompt in this directory.
-- Write git clone git@github.com:jmonto55/To-Do-List.git
-- Go to the repository folder in your command prompt cd To-Do-List.
-- Run npm install to install the dev dependencies for linters
+- Go to this link https://github.com/jmonto55/Leaderboard
+- In your command terminal go to the directory where you want to clone the repository.
+- Write `git clone github.com/jmonto55/Leaderboard.gitt`
+- Go to the repository folder in your command terminal using `cd Leaderboard`.
+- Run `code .` to open a local copy of the project in your code editor.
 
 ### Install
 
-You don't need to install anything.
+- Run `npm install` to install all dev dependencies for Linters, Webpack & Babel.
 
 ### Usage
 
 To run the project, execute the following command:
-- Go to the file called index.html.
-- Right click Open Live Server.
+
+- Run `npm run start` in your command terminal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +133,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **I will add more functionality in the future**
+- [ ] **Connection with API will be implemented soon**
+- [ ] **Cool styles will be added in the future**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
