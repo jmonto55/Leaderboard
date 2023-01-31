@@ -63,7 +63,7 @@ main {
 }
 
 .btn:hover {
-  background-color: rgb(206, 206, 206);
+  background-color: #bebeb6;
 }
 
 .scores_list {
@@ -79,7 +79,7 @@ main {
 }
 
 .score:nth-child(odd) {
-  background: rgb(206, 206, 206);
+  background: #bebeb6;
 }
 
 .add_score_container {
