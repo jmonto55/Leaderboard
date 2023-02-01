@@ -74,6 +74,7 @@
 
 - **Leaderboard allow user to save their scores**
 - **Leaderboard allow users to check all scores an see who is winning**
+- **Leaderboard allow users to store new scores and retrieve them later with the refresh button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +134,6 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Connection with API will be implemented soon**
 - [ ] **Cool styles will be added in the future**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
