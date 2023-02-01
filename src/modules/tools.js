@@ -31,10 +31,17 @@ const addToDOM = (user, score) => {
   document.querySelector('.scores_list').appendChild(scoreLi);
 };
 
+const addToAPI = async (user, score) => {
+  const { data, stat } = await postScore(user, score);
+  if (stat !== 201) return `Error ${stat}: ${data.message}`;
+  addToDOM(user, score);
+  return { data, stat };
+};
+
 form.onsubmit = (e) => {
   e.preventDefault();
   const scoreUsername = username.value;
   const scoreValue = score.value;
-  addToDOM(scoreUsername, scoreValue);
+  addToAPI(scoreUsername, scoreValue);
   form.reset();
 };
