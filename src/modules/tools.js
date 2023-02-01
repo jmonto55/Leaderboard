@@ -8,9 +8,8 @@ const score = document.getElementById('score');
 const refreshScores = async () => {
   const { data, stat } = await getScores();
   const scoresList = document.querySelector('.scores_list');
-  if (stat !== 200) {
-    scoresList.innerHTML = `Error ${stat}: ${data.message}`;
-  } else {
+  if (stat !== 200) scoresList.innerHTML = `Error ${stat}: ${data.message}`;
+  else {
     scoresList.innerHTML = '';
     data.result.forEach((e) => {
       const score = document.createElement('li');
