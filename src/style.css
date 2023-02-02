@@ -1,3 +1,4 @@
+/* stylelint-disable csstree/validator */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,39 +10,54 @@
     "verdana",
     "arial",
     sans-serif;
-  color: #28282b;
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: grey;
-  height: 100vh;
+  background-color: #272727;
   justify-content: center;
 }
 
 header {
-  padding: 2.5%;
-  font-size: 2rem;
+  padding: 50px 0 30px 50px;
   width: 100%;
   max-width: 1500px;
-  background-color: #fff;
+  background-color: #272727;
+  text-shadow: #55af33 4px 4px;
+  border: #e7e7e7 solid 2px;
+  border-bottom: none;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #e7e7e7;
+  font-size: clamp(1rem, 10vw, 7rem);
+}
+
+h2 {
+  color: #e7e7e7;
 }
 
 main {
-  background-color: #fff;
-  padding: 2.5%;
+  border: #e7e7e7 solid 2px;
+  border-top: none;
+  background-color: #272727;
+  padding: 5% 2.5%;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   max-width: 1500px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .scores_container {
   width: 50%;
+  min-width: 320px;
   display: block;
   padding: 0 2%;
+  margin-bottom: 50px;
 }
 
 .scores_header_container {
@@ -54,21 +70,23 @@ main {
 
 .btn {
   padding: 5px 10px;
-  background-color: #fff;
-  box-shadow: #28282b 3px 3px;
+  background-color: #e7e7e7;
+  color: #272727;
+  box-shadow: #55af33 5px 5px;
   font-size: 1.2rem;
   cursor: pointer;
   font-weight: 500;
-  transition: all ease 0.3s;
+  transition: all ease 0.5s;
+  border: none;
 }
 
 .btn:hover {
-  background-color: #d6d6cd;
+  background-color: #afedb7;
 }
 
 .scores_list {
   margin-top: 30px;
-  border: #28282b solid 2px;
+  border: #e7e7e7 solid 2px;
 }
 
 .score {
@@ -76,19 +94,22 @@ main {
   padding: 5px;
   font-size: 1.2rem;
   font-weight: 500;
+  color: #e7e7e7;
 }
 
 .score:nth-child(odd) {
-  background: #d6d6cd;
+  background: #323232;
 }
 
 .add_score_container {
   width: 50%;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 2%;
   font-size: 1.7rem;
+  margin-bottom: 100px;
 }
 
 form {
@@ -103,7 +124,7 @@ form {
 input {
   width: 300px;
   padding: 5px;
-  border: #28282b solid 2px;
+  border: #e7e7e7 solid 2px;
   margin-bottom: 20px;
 }
 
@@ -122,8 +143,13 @@ input::-webkit-input-placeholder {
 
 footer {
   width: 100%;
-  height: 50px;
-  border: #28282b solid 2px;
-  background-color: #d6d6cd;
+  min-height: 50px;
+  border: #e7e7e7 solid 2px;
+  background-color: #e7e7e7;
   max-width: 1500px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
