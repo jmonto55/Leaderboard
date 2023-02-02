@@ -20,4 +20,5 @@ const postScore = async (user, score) => {
   const stat = res.status;
   return { data, stat };
 };
+
 export { getScores, postScore };
