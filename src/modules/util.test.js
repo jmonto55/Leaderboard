@@ -17,7 +17,7 @@ describe('Toolbox functions Tests', () => {
     expect(scoresArry[1].innerHTML).toBe('Salo: 30');
   });
 
-  it('Should test if refreshScores is correctly displaying the scores list', async () => {
+  it('Should test if refreshScores is correctly displaying the scores list in the DOM', async () => {
     await refreshScores();
     const scoresArry = document.querySelectorAll('.score');
     expect(scoresArry).toHaveLength(3);
