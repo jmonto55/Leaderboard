@@ -18,7 +18,6 @@ const refreshScores = async () => {
       scoresList.appendChild(score);
     });
   }
-  return scoresList;
 };
 
 refreshButton.onclick = () => refreshScores();
@@ -33,8 +32,7 @@ const addToDOM = (user, score) => {
 const addToAPI = async (user, score) => {
   const { data, stat } = await postScore(user, score);
   if (stat !== 201) return `Error ${stat}: ${data.message}`;
-  addToDOM(user, score);
-  return { data, stat };
+  return addToDOM(user, score);
 };
 
 form.onsubmit = (e) => {
