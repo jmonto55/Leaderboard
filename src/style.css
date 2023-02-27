@@ -25,10 +25,32 @@ header {
   width: 100%;
   max-width: 1500px;
   background-color: #272727;
-  text-shadow: #55af33 4px 4px;
   border: #e7e7e7 solid 2px;
   border-bottom: none;
   flex-wrap: wrap;
+  animation: animation 10s ease-in-out 0s infinite alternate forwards;
+}
+
+@keyframes animation {
+  0% {
+    text-shadow: rgb(215, 35, 35) 4px 4px;
+  }
+
+  25% {
+    text-shadow: rgb(25, 79, 229) 4px 4px;
+  }
+
+  50% {
+    text-shadow: rgb(227, 246, 9) 4px 4px;
+  }
+
+  75% {
+    text-shadow: #55af33 4px 4px;
+  }
+
+  100% {
+    text-shadow: silver 4px 4px;
+  }
 }
 
 h1 {
@@ -73,16 +95,38 @@ main {
   padding: 5px 10px;
   background-color: #e7e7e7;
   color: #272727;
-  box-shadow: #55af33 5px 5px;
   font-size: 1.2rem;
   cursor: pointer;
   font-weight: 500;
   transition: all ease 0.5s;
   border: none;
+  animation: animation2 10s ease-in-out 0s infinite alternate forwards;
+}
+
+@keyframes animation2 {
+  0% {
+    box-shadow: rgb(215, 35, 35) 5px 5px;
+  }
+
+  25% {
+    box-shadow: rgb(25, 79, 229) 5px 5px;
+  }
+
+  50% {
+    box-shadow: rgb(227, 246, 9) 5px 5px;
+  }
+
+  75% {
+    box-shadow: #55af33 5px 5px;
+  }
+
+  100% {
+    box-shadow: silver 5px 5px;
+  }
 }
 
 .btn:hover {
-  background-color: #afedb7;
+  background-color: silver;
 }
 
 .scores_list {
