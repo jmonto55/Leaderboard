@@ -106,14 +106,14 @@ To get a local copy up and running follow these simple example steps.
 Clone this repository in the desired folder:
 ```
 cd my-folder
-git clone https://github.com/jmonto55/Bookstore.git
+git clone https://github.com/jmonto55/Leaderboard.git
 ```
 
 ### Install
 
 To install this project:
 ```
-cd Bookstore
+cd Leaderboard
 code .
 npm install
 ```
