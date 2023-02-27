@@ -82,7 +82,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not Available](https://jmonto55.github.io/ToDoList/dist/)
+- [Not Available](https://leaderboard-p1cz.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,33 +90,41 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy of this project and run it in your computer, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 - A working computer.
 - Connection to internet.
+- [npm](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/) installed, if you don't have them, please follow this [simple installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ### Setup
 
 To get a local copy up and running follow these simple example steps.
 
-- Go to this link https://github.com/jmonto55/Leaderboard
-- In your command terminal go to the directory where you want to clone the repository.
-- Write `git clone github.com/jmonto55/Leaderboard.gitt`
-- Go to the repository folder in your command terminal using `cd Leaderboard`.
-- Run `code .` to open a local copy of the project in your code editor.
+Clone this repository in the desired folder:
+```
+cd my-folder
+git clone https://github.com/jmonto55/Bookstore.git
+```
 
 ### Install
 
-- Run `npm install` to install all dev dependencies for Linters, Webpack & Babel.
+To install this project:
+```
+cd Bookstore
+code .
+npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-- Run `npm run start` in your command terminal.
+```
+npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
