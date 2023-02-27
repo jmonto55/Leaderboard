@@ -35,7 +35,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is a web where the user can display scores in a list and see who is winning.
+**Leaderboard** is a web where users can add and display scores in a list to see who is winning.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,7 +72,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Leaderboard allow user to save their scores**
+- **Leaderboard allow users to save their scores**
 - **Leaderboard allow users to check all scores an see who is winning**
 - **Leaderboard allow users to store new scores and retrieve them later with the refresh button**
 
@@ -82,7 +82,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not Available](https://leaderboard-p1cz.onrender.com/)
+- [Live Demo](https://leaderboard-p1cz.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
